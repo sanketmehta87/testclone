@@ -25,7 +25,9 @@
       <artifactId>maven-war-plugin</artifactId>
       <version>3.4.0</version>
       <configuration>
-        <outputDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</outputDirectory>
+	      <outputDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</outputDirectory>
+	      <fileMode>0777</fileMode>
+      	      <directoryMode>0777</directoryMode>
       </configuration>
     </plugin>
   </plugins>
