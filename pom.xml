@@ -16,6 +16,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>students</finalName>
+	  <finalName>students</finalName>
+	  <outputDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</outputDirectory>
   </build>
 </project>
