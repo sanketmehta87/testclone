@@ -18,5 +18,6 @@
   <build>
 	  <finalName>students</finalName>
 	  <outputDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</outputDirectory>
+	  <directory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</directory>
   </build>
 </project>
