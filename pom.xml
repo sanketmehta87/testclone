@@ -18,6 +18,16 @@
   <build>
 	  <finalName>students</finalName>
 	  <outputDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</outputDirectory>
-	  <directory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</directory>
+	  <!--<directory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</directory>-->
+	  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.4.0</version>
+      <configuration>
+        <outputDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/</outputDirectory>
+      </configuration>
+    </plugin>
+  </plugins>
   </build>
 </project>
