@@ -18,6 +18,7 @@
   <build>
 	  <finalName>students</finalName>
 	  <plugins>
+<<<<<<< HEAD
         <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
@@ -27,5 +28,18 @@
          </configuration>
         </plugin>
     </plugins>
+=======
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.4.0</version>
+      <configuration>
+	      <!--<outputDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/students/</outputDirectory>
+		      -->
+	      <webappDirectory>/home/ubuntu/apache-tomcat-11.0.13/webapps/students/</webappDirectory>
+      </configuration>
+    </plugin>
+  </plugins>
+>>>>>>> 3fd1323 (commit fix: index html)
   </build>
 </project>
